@@ -1,0 +1,29 @@
+# LSTM Forecasting Pipeline — Requirements
+# Install with: pip install -r requirements.txt
+
+# Core ML
+tensorflow>=2.13.0
+scikit-learn>=1.3.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Data
+yfinance>=0.2.28
+pandas>=2.0.0
+pandas-datareader>=0.10.0
+
+# Web app
+flask>=3.0.0
+gunicorn>=21.2.0          # production WSGI server
+
+# Visualisation
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+tabulate>=0.9.0
+python-dotenv>=1.0.0
+
+# Optional — for faster inference
+# onnx>=1.15.0
+# tf2onnx>=1.16.0
