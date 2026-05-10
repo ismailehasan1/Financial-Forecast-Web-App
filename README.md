@@ -1,3 +1,103 @@
+
+
+
+
+# 📈 AI-Powered Stock Forecasting & Risk Analytics Platform
+
+A production-style machine learning system that delivers probabilistic
+stock price forecasts using deep learning (BiLSTM + Attention) and
+uncertainty modeling (Monte Carlo Dropout), designed to support
+investment decision-making, risk awareness, and financial forecasting
+workflows.
+
+------------------------------------------------------------------------
+
+## 🎯 Business Objective
+
+Financial markets are inherently uncertain. Traditional forecasting
+methods often provide single-point predictions, which can be misleading
+for decision-making.
+
+This project addresses that limitation by building a system that:
+
+-   📊 Forecasts stock prices across multiple time horizons\
+-   📉 Quantifies uncertainty using probabilistic modeling\
+-   🧠 Learns complex market patterns using deep learning\
+-   🌐 Provides accessible insights via API and dashboard
+
+------------------------------------------------------------------------
+
+## 💼 Value Proposition
+
+This system is designed for:
+
+-   Investment analysis and portfolio planning\
+-   Risk management and downside estimation\
+-   Trading strategy support\
+-   Financial reporting automation\
+-   Decision-support dashboards
+
+------------------------------------------------------------------------
+
+## 🧠 Solution Overview
+
+-   BiLSTM + Attention for time-series learning\
+-   Technical indicator feature engineering\
+-   Monte Carlo Dropout for uncertainty estimation\
+-   REST API for integration\
+-   Web dashboard for visualization
+
+------------------------------------------------------------------------
+
+## 📊 Forecast Output
+
+-   Mean forecast trajectory\
+-   Confidence intervals (P5--P95)\
+-   Multi-horizon predictions (7--90 days)
+
+------------------------------------------------------------------------
+
+## 🧠 Model Intelligence
+
+-   Bidirectional LSTM captures temporal dependencies\
+-   Attention focuses on key market signals\
+-   Dropout-based sampling produces probability distributions
+
+------------------------------------------------------------------------
+
+## 📈 Features Used
+
+-   OHLCV market data\
+-   Moving averages\
+-   RSI, MACD\
+-   Bollinger Bands\
+-   ATR volatility\
+-   Volume indicators
+
+------------------------------------------------------------------------
+
+## 🌐 System Capabilities
+
+-   Train models via API\
+-   Run forecasts on demand\
+-   Download saved pipelines\
+-   Interactive dashboard
+
+------------------------------------------------------------------------
+
+## ⚙️ Tech Stack
+
+-   TensorFlow / Keras\
+-   Pandas / NumPy\
+-   Scikit-learn\
+-   Yahoo Finance API\
+-   Flask / Gunicorn\
+-   Matplotlib
+
+------------------------------------------------------------------------
+
+
+
 # LSTM Stock Forecasting Pipeline
 
 Bidirectional LSTM with Bahdanau Attention, MC-Dropout uncertainty,
@@ -203,3 +303,22 @@ python app.py
 
 Then open your browser and go to:
 http://127.0.0.1:5001
+
+
+
+
+## 🚀 Key Highlights
+
+✔ End-to-end ML pipeline\
+✔ Probabilistic forecasting\
+✔ Production-ready API\
+✔ Modular architecture\
+✔ Reusable model pipelines
+
+------------------------------------------------------------------------
+
+## 📌 Summary
+
+This system converts raw financial data into actionable,
+uncertainty-aware forecasts for better financial decision-making.
+
